@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Frame
+        id="00"
+        positionX="100"
+        positionY="100"
+        width="277"
+        height="300"
+        title="Đơn giản nhưng lại ý nghĩa">
+
+    <Label
+            id="01"
+            positionX="20"
+            positionY="10"
+            width="250"
+            height="25"
+            text="Nhập tài khoản và mật khẩu để check độ đẹp trai của bạn?"
+	    backColor="#42A5F5"
+	    fontColor="#212121"
+	    size="16" />
+    <Label
+            id="02"
+            positionX="20"
+            positionY="40"
+            width="67"
+            height="25"
+            text="Tài khoản"
+	    backColor="#42A5F5"
+	    fontColor="#212121"
+	    size="14" />
+    <TextField
+            id="03"
+            positionX="90"
+            positionY="40"
+            width="150"
+            height="25"
+	    placeHolder="Nhập tên tài khoản" />
+    <Label
+            id="04"
+            positionX="20"
+            positionY="70"
+            width="67"
+            height="25"
+            text="Mật khẩu"
+	    backColor="#42A5F5"
+	    fontColor="#212121"
+	    size="14" />
+    <TextField
+            id="05"
+            positionX="90"
+            positionY="70"
+            width="150"
+            height="25"
+	    placeHolder="Nhập mật khẩu" />
+     <Label
+            id="06"
+            positionX="20"
+            positionY="70"
+            width="67"
+            height="25"
+            text="Thầy Kiên có đẹp trai không?"
+	    backColor="#42A5F5"
+	    fontColor="#212121"
+	    size="14" />
+      <CheckBox
+            id="07"
+            positionX="90"
+            positionY="100"
+            width="67"
+            height="25"
+	    checked="false"
+	    text="Thầy Kiên có đẹp trai không?" />
+    <Button
+            id="08"
+            positionX="20"
+            positionY="130"
+            width="217"
+            height="25"
+            text="Cùng nhau kiểm tra nào!"/>
+
+</Frame>
